@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.nav-wrapper{
+	background-color: #4d4d4d;
+}
+
+.brand-logo{
+	font-family: "Norwester";
+}
+
+.TimeLines{
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+body{
+	background-color: #666;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TodosPorMexico - Centros de Acoplo</title>
+	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/centrosDeAcopio.css">
+</head>
+<body>
+
+	<nav>
+		<div class="nav-wrapper">
+			<a href="index.html" class="brand-logo">TodosPorMexico</a>
+			<ul id="nav-mobile" class="right">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="timelines.html">Seguir el sismo</a></li>
+				<li><a href="centrosDeAcoplo.html">Centros de Acopio</a></li>
+				<li><a href="mapa.html">Mapa</a></li>
+				<li><a href="ayuda.html">Ayuda</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="Post">
+		<input type="text" placeholder="Nombre de Centro de Acoplo" id="Nombre">
+		<input type="text" placeholder="Direccion" id="Direccion">
+		<textarea placeholder="Viveres que necesita tu centro" id="listaDeViveres"></textarea>
+		<button id="postUpload">Publicar post</button>
+		<a href="centrosVer.html">Ver posts</a>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="js/upload.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #666;
+}
+
+.nav-wrapper{
+	background-color: #4d4d4d;
+}
+
+.brand-logo{
+	font-family: "Norwester";
+}
+
+.Post{
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 200px;
+	color: #fff;
+}
+
+#listaDeViveres{
+	min-height: 300px;
+	max-height: 300px;
+	border-color: #4d4d4d;
+	max-width: 1065px;
+	min-width: 1065px;
+	border-radius: 2px;
+}
+
+#postUpload{
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	border: none;
+	background-color: #4d4d4d;
+	border-radius: 5px;
+}

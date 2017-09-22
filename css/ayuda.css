@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.nav-wrapper{
+	background-color: #4d4d4d;
+}
+
+.brand-logo{
+	font-family: "Norwester";
+}
+
+body{
+	background-color: #666;
+	color: #fff;
+}

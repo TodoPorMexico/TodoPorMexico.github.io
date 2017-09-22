@@ -1,0 +1,19 @@
+body{
+	background-color: #666;
+}
+
+.nav-wrapper{
+	background-color: #4d4d4d;
+}
+
+.brand-logo{
+	font-family: "Norwester";
+}
+
+.Map{
+	padding-top: 50px;
+}
+
+.Indicadores{
+	padding-left: 170px;
+}
